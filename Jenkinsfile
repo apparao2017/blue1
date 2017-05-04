@@ -18,11 +18,11 @@ pipeline {
     stage('Stage2') {
       steps {
         parallel(
-          "Stage2": {
+          "step21": {
             echo 'step1-stage2'
             
           },
-          "step2": {
+          "step22": {
             echo 'step22'
             
           }
